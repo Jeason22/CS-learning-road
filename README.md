@@ -1,6 +1,8 @@
 # CS-learning-road-
-虽然不是计算机或者软件专业人员，但是我想通过自主学习去在计算机领域能取得一些成就 。
-接下来就开始积累一些计算机学习路上的知识吧！
+
+Although not computer or software professionals, through independent learning ， I want to go to some achievements in the field of computer.
+
+Then began to accumulate some computer knowledge of the way to learn!
 
 ## 前端学习 
 HTML、css、Javascript
