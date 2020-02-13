@@ -103,3 +103,168 @@ caption标签，为表格添加标题和摘要
 使用<a>标签，链接到另一个页面
 <a  href="目标网址"  title="鼠标滑过显示的文本">链接显示的文本</a>
 <a href="#" title="前端开发面试心法">前端开发面试心法</a> 
+在新建浏览器窗口中打开链接
+<a href="目标网址" target="_blank">click here!</a>
+使用mailto在网页中链接Email地址
+<a href="mailto:yy@imooc.com?subject=主题名称&body=邮件内容">
+认识<img>标签，为网页插入图片
+语法：
+
+<img src="图片地址" alt="下载失败时的替换文本" title = "提示文本">
+
+举例：
+
+<img src = "myimage.gif" alt = "My Image" title = "My Image" />
+使用表单标签，与用户交互
+语法：
+
+<form   method="传送方式"   action="服务器文件">
+讲解：
+
+1.<form> ：<form>标签是成对出现的，以<form>开始，以</form>结束。
+
+2.action ：浏览者输入的数据被传送到的地方,比如一个PHP页面(save.php)。
+
+3.method ： 数据传送的方式（get/post）。
+例子：
+<form    method="post"   action="save.php">
+        <label for="username">用户名:</label>
+        <input type="text" name="username" />
+        <label for="pass">密码:</label>
+        <input type="password" name="pass" />
+</form>
+文本输入框、密码输入框
+语法：
+
+<form>
+   <input type="text/password" name="名称" value="文本" />
+</form>
+1、type：
+
+   当type="text"时，输入框为文本输入框;
+
+   当type="password"时, 输入框为密码输入框。
+
+2、name：为文本框命名，以备后台程序ASP 、PHP使用。
+
+3、value：为文本输入框设置默认值。(一般起到提示作用)
+
+举例：
+
+<form>
+  姓名：
+  <input type="text" name="myName">
+  <br/>
+  密码：
+  <input type="password" name="pass">
+</form>
+语法：
+
+<textarea  rows="行数" cols="列数">文本</textarea>
+1、<textarea>标签是成对出现的，以<textarea>开始，以</textarea>结束。
+
+2、cols ：多行输入域的列数。
+
+3、rows ：多行输入域的行数。
+
+4、在<textarea></textarea>标签之间可以输入默认值。
+
+举例：
+
+<form  method="post" action="save.php">
+        <label>联系我们</label>
+        <textarea cols="50" rows="10" >在这里输入内容...</textarea>
+</form>
+使用单选框、复选框，让用户选择
+语法：
+
+<input   type="radio/checkbox"   value="值"    name="名称"   checked="checked"/>
+1、type:
+
+   当 type="radio" 时，控件为单选框
+
+   当 type="checkbox" 时，控件为复选框
+
+2、value：提交数据到服务器的值（后台程序PHP使用）
+
+3、name：为控件命名，以备后台程序 ASP、PHP 使用
+
+4、checked：当设置 checked="checked" 时，该选项被默认选中
+使用下拉列表框，节省空间
+1、value：
+
+2、selected="selected"：
+
+设置selected="selected"属性，则该选项就被默认选中。
+使用下拉列表框进行多选
+下拉列表也可以进行多选操作，在<select>标签中设置multiple="multiple"属性，就可以实现多选功能，
+使用提交按钮，提交数据
+在表单中有两种按钮可以使用，分别为：提交按钮、重置。这一小节讲解提交按钮：当用户需要提交表单信息到服务器时，需要用到提交按钮。
+
+语法：
+
+<input   type="submit"   value="提交">
+type：只有当type值设置为submit时，按钮才有提交作用
+
+value：按钮上显示的文字
+使用重置按钮，重置表单信息
+语法：
+
+<input type="reset" value="重置">
+
+type：只有当type值设置为reset时，按钮才有重置作用
+
+value：按钮上显示的文字
+form表单中的label标签
+label标签不会向用户呈现任何特殊效果，它的作用是为鼠标用户改进了可用性。如果你在 label 标签内点击文本，就会触发此控件。就是说，
+当用户单击选中该label标签时，浏览器就会自动将焦点转到和标签相关的表单控件上（就自动选中和该label标签相关连的表单控件上）。
+
+语法：
+
+<label for="控件id名称">
+注意：标签的 for 属性中的值应当与相关控件的 id 属性值一定要相同。
+
+例子：
+
+<form>
+  <label for="male">男</label>
+  <input type="radio" name="gender" id="male" />
+  <br />
+  <label for="female">女</label>
+  <input type="radio" name="gender" id="female" />
+  <label for="email">输入你的邮箱地址</label>
+  <input type="email" id="email" placeholder="Enter email">
+</form>
+
+
+总结HTML
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>form中的lable标签</title>
+</head>
+
+<body>
+<form>
+     <label for="word">姓名</label>
+  <input type="word" id="word" placeholder=""><br />
+   <label for="male">男</label>
+  <input type="radio" name="gender" id="male" />
+  <br />
+  <label for="female">女</label>
+  <input type="radio" name="gender" id="female" />
+  <br />
+  <label for="email">邮箱地址</label>
+  <input type="email" id="email" placeholder="Enter email"><br />
+   你对什么运动感兴趣：<br />
+  <label for="jog">慢跑</label>
+  <input type="checkbox" name="jog" id="jog" /><br />
+  <label for="climb">登山</label>
+  <input type="checkbox" name="climb" id="climb" /><br />
+  <label for="basketball">篮球</label>
+  <input type="checkbox" name="basketball" id="basketball" />
+</form>
+
+</body>
+</html>
