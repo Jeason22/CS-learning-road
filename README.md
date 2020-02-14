@@ -23,17 +23,17 @@ MySQL数据库
 
 ## 网页技术与标准
 文档呈现语言	
-▪ HTML	▪ XHTML	▪ XML	▪ XForms ▪ DHTML			
+▪ HTML	▪ XHTML	▪ XML	▪ XForms ▪ DHTML			<br>
 样式格式描述语言	
-▪ 层叠样式表	▪ XSL		
+▪ 层叠样式表	▪ XSL		<br>
 动态网页技术	
-▪ CGI	▪ FastCGI	▪ ASP	▪ ASP.NET ▪ ColdFusion	▪ JSP	▪ PHP	
+▪ CGI	▪ FastCGI	▪ ASP	▪ ASP.NET ▪ ColdFusion	▪ JSP	▪ PHP	  <br>
 客户端交互技术	
-▪ ActiveX	▪ Java Applet	▪ JavaFX	▪ AJAX
-▪ Silverlight	▪ ActionScript	▪ Flex	▪ AIR
+▪ ActiveX	▪ Java Applet	▪ JavaFX	▪ AJAX    
+▪ Silverlight	▪ ActionScript	▪ Flex	▪ AIR    <br>
 客户端脚本语言	
-▪ JavaScript	▪ JScript	▪ VBScript	▪ ECMAScript
+▪ JavaScript	▪ JScript	▪ VBScript	▪ ECMAScript    <br>
 标识定位语言	
-▪ URL	▪ URI	▪ XPath	▪ URL重写
+▪ URL	▪ URI	▪ XPath	▪ URL重写    <br>
 文档纲要语言	
-▪ DTD	▪ XML Schema		
+▪ DTD	▪ XML Schema		  <br>
