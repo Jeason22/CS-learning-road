@@ -3,12 +3,12 @@
 Although not computer or software professionals, through independent learning ， I want to go to some achievements in the field of computer.
 Then began to accumulate some computer knowledge of the way to learn!
 
-## 前端学习 
-HTML、css、Javascript
+## 前端
+HTML、css、Javascript、PHP
 
 
 ## 编程
-C语言、Python、汇编、php
+C语言、Python、汇编
 
 ## 数据结构与算法
 
