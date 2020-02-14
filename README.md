@@ -29,8 +29,7 @@ MySQL数据库
 动态网页技术	
 ▪ CGI	▪ FastCGI	▪ ASP	▪ ASP.NET ▪ ColdFusion	▪ JSP	▪ PHP	  <br>
 客户端交互技术	
-▪ ActiveX	▪ Java Applet	▪ JavaFX	▪ AJAX    
-▪ Silverlight	▪ ActionScript	▪ Flex	▪ AIR    <br>
+▪ ActiveX	▪ Java Applet	▪ JavaFX	▪ AJAX  ▪ Silverlight	▪ ActionScript	▪ Flex	▪ AIR    <br>
 客户端脚本语言	
 ▪ JavaScript	▪ JScript	▪ VBScript	▪ ECMAScript    <br>
 标识定位语言	
