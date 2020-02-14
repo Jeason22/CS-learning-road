@@ -24,3 +24,20 @@ MySQL数据库
 
 ## Debian
 在Debian上可以搭建git服务器用来保护个人隐私
+
+## 网页技术与标准
+文档呈现语言	
+▪ HTML	▪ XHTML	▪ XML	▪ XForms ▪ DHTML			
+样式格式描述语言	
+▪ 层叠样式表	▪ XSL		
+动态网页技术	
+▪ CGI	▪ FastCGI	▪ ASP	▪ ASP.NET ▪ ColdFusion	▪ JSP	▪ PHP	
+客户端交互技术	
+▪ ActiveX	▪ Java Applet	▪ JavaFX	▪ AJAX
+▪ Silverlight	▪ ActionScript	▪ Flex	▪ AIR
+客户端脚本语言	
+▪ JavaScript	▪ JScript	▪ VBScript	▪ ECMAScript
+标识定位语言	
+▪ URL	▪ URI	▪ XPath	▪ URL重写
+文档纲要语言	
+▪ DTD	▪ XML Schema		
