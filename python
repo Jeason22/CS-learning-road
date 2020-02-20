@@ -1,1 +1,169 @@
 人生苦短 我用python!!!
+人生苦短 我用python!!!
+0、Python解释器
+ python版本2.x/3.x
+ python书写格式：单行代码前面不要出现空格
+               #号后面的内容是注释
+               多行结构要使用缩进，一般为四个空格
+ 执行方式：脚本执行：写入.py为扩展名的文本
+                  使用python3脚本文件.py执行
+         交互式执行：执行python3命令，逐行输入
+1、数据类型
+  工厂函数：type() int() float() str() list() tuple() dict() bool() det()
+  数值：整数（123）、浮点数（1.0）、布尔数（True、False）
+  字符串：‘abc’  字符串可以使用单引号、双引号、三引号
+        编码：unicode编码  u'字符串'
+             原始内容      r'字符串'
+  列表：【'a','b','c'】
+        常用方法：list.append()\list.len()\list.insert()\list.remove()\list.sort()\list.count()
+        列表推导式 【2*×forxin list】
+  元组：（101.5.200.3）
+  字典： {‘a':1,'b':2,'c':3}
+        数值、字符串、元组都可以作为字典的key
+        常用方法：dict.items()\dict.keys()\dict.values()
+        字典推导式：{i：i*| for i in range(20,31) if i%2|=0}
+  集合： {’apple','orage','pear'}     
+  空：None
+2、变量与运算符
+  变量命名规则：字母、数字、下划线
+              不以数字开头
+              PEP8:import this
+                   避免使用单个字母做变量名称
+                   可以使用带下划线小写字母串
+                   混合大小写，第一个字母小写
+                   使用缩写要使用大写字母
+              关键字：关键字也叫作保留字，不能被用作变量吗
+   变量赋值：赋值符号=
+            多重赋值x=y=123
+            多变量赋值x,y,z='123'
+            交换变量的值a,b=b,a
+    运算符：算术运算符 +，-，*，/,//,%
+           比较运算符>,++,<,>=
+3、流程控制：if语句：if 分支：
+                      pass
+                   else 分支：
+                      pass
+                   else分之：
+                      pass
+                      
+                    else:
+                      pass
+             for语句：for 变量 in 序列：
+                          pass
+             break：跳出循环
+             continue:跳出本次循环
+             pass:什么都不做
+4、文件：常用函数：open（）、read（）、readline()、readlines()、write（）、close（）
+        上下文管理器：with open (afile) as f:
+                    pass
+5、输入输出：输出print（）
+           输入input（）
+6、异常:处理异常 异常类型：try:
+                          pass
+                       except：
+                          pass
+                        finally:
+                          pass
+       抛出异常 异常类型：raise
+7、函数和模块：函数定义：def 函数名（参数）
+                          pass
+             函数调用：函数名（参数）
+             函数返回:retun
+             函数参数：关键字参数 函数名（keyword=value）
+                     可变长参数 函数名（*keyword）
+                     变量作用域 global 全局变量
+             迭代器：next()\lter()\list()
+             生成器：自定义一个迭代器 yield
+             匿名函数：lambda形式 lambdax,y:x+y
+             函数式编程：filter（）\map()\zip()\reduce()
+             闭包：闭包的定义 def sum(a);
+                              def add(b);
+                                return a+b
+                               return ass
+                  必包的使用：num1=sum(4)
+                            print（num1(5))
+                  装饰器：@函数名
+                        @函数名（可以带参数）
+              模块的导入：from模块import子模块、函数
+                        if语句作为模块导入不执行相应语句块 name_=="main_"
+8、面向对象编程：类的定义：class类名称：
+                              pass
+                         类包含：方法
+                                属性
+                         类参数： _init_(self.argv)
+                类对象：类名称（）
+                        类实例  self
+                继承：：class类名称（父类名称）：
+                        pass
+9、多线程：多线程可以让程序并行执行
+          常用库：threading
+                  queue
+          常用方法：start（）
+                    join（）
+10、第三方库：numpy:基本类型ndarray
+                   创建一维数组：import numpy as np
+                                 arr1=np,arry([2,3,4])
+                   类表转换矩阵：data=[[1,2,3],[4,5,6]]
+                                arr3=np,array(data)
+             pandas:基本数据类型：一维 Series
+                                 多维 DataFrame
+                    字典换成pandas数据结构：data={'city':['shanghai','shanghai',beijing'},
+                                                 'year':[2016,2017,2018,2017,2018],
+                                                 'pop':[1.5,1.7,3.6,2.4,2.9]}
+                                           frame=DataFrame(data)
+                    填充缺失值  fillna()
+                    从csv文件读取数据  pd.read_csv('ch06/ex1.csv')
+              matplotlib:绘制一条曲线 plt.plot()
+                         绘制直方图  plt.hist()
+                         绘制散点图 plt.figure()
+              tensorflow estimator 生成10*10的多类别分类深度神经网络模型 Classifier(
+                                                                       e_columns,hidden_units=units=[10,10],n_
+              request get方法 reponse=requests.get(url,data)
+                      post方法 reponse=requests.post(url,json=data,cookies=cookie)
+              BeauitifulSoup 常用函数 from bs4 import BeautifulSoup
+                                      soup.prettify()
+                                      soup.p 找到<p>标签
+                                      soup.a 找到第一个<a>标签
+                                      soup.find_all('a') 找到所有的<a>标签
+                                      for link in soup.find_all('a'):
+                                        print(link.get('href'))
+11、标准库 1.运行服务的_main_
+          2.文字处理的re 元字符 .^$*+?{m}{m,n}{}|
+                               \b\B\d\D\s
+                        常用函数 match（） group()
+                                search()
+                                findall()
+                                sub()
+          3.日期类型的time、datetime  time time()
+                                          localtime()
+                                     datetime datatime()
+                                               timedelta()
+                                               now()
+           4.数字和数学类型的math、random  random randint()
+                                                 choice()
+           5.文件和目录访问的pathlib、os、path  os.path abspath()
+                                                       exists()
+                                                       isfile()
+                                                       isdir()
+                                                       jpin()
+           6.数据压缩和归档的tarfile
+           7.通用奥做系统的os、logging、argparse
+           8.多线程的threading、queue
+           9.Internet数据处理的base64、json、urllib
+           10.结构化标记处理工具的html、xml
+           11.开发工具的unitest
+           12.调试工具的timeit
+           13.软件包发布的venv
+           14.请求网页内容  from urllib import request
+                            url='http://www.baidu.com'
+                            response=request.urlopen(url,timeout=1)
+           
+                                                     
+                                
+                                
+                                
+                            
+                                
+                                
+                        
+         
