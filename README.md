@@ -7,11 +7,11 @@ HTML、css、Javascript、PHP
 
 ## 编程
 C语言、Python、汇编<br>
-五步提升编程能力：练习算法和数据结构
-                 阅读他人的代码
-                 参加编程竞赛
-                 探索其他编程语言
-                 构建项目
+五步提升编程能力：练习算法和数据结构<br>
+                 阅读他人的代码<br>
+                 参加编程竞赛<br>
+                 探索其他编程语言<br>
+                 构建项目<br>
 
 ## 数据结构与算法
 
@@ -19,9 +19,9 @@ C语言、Python、汇编<br>
 MySQL数据库
 
 ## Github
-标题  用#
-链接  本站点是使用 [GitHub Pages](https://pages.github.com/) 构建的。
-加/可创建文件夹
+标题  用#<br>
+链接  本站点是使用 [GitHub Pages](https://pages.github.com/) 构建的。<br>
+加/可创建文件夹<br>
 
 ## Debian
 在Debian上可以搭建git服务器用来保护个人隐私
