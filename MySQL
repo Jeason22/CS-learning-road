@@ -27,6 +27,7 @@ mysql>drop TABLE MYTABLE;
 mysql>delete from MYTABLE;
 12:更新表中数据
 mysql>update MYTABLE set sex=”f” where name=’hyq’;
+
 全局管理权限对应解释：
 FILE: 在MySQL服务器上读写文件。
 PROCESS: 显示或杀死属于其它用户的服务线程。
